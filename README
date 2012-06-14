@@ -1,0 +1,6 @@
+Example /etc/cron.daily/lock-old-topics script:
+
+
+#!/bin/sh
+exec su -c "/home/david/bin/smf-utils/lock-old-topics.sh /var/www/forum.taurin/public/" david
+ 
